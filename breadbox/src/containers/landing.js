@@ -9,7 +9,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Hello World Header</h1>
+        <h1>Hello World Landing</h1>
       </div>
     );
   }
