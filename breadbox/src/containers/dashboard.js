@@ -1,5 +1,7 @@
 /*jshint esversion: 6 */
 import React, { Component } from 'react';
+import Header from './header.js';
+import ModuleCard from './moduleCard.js';
 
 class Dashboard extends Component {
   constructor() {
@@ -9,7 +11,8 @@ class Dashboard extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Hello World Dashboard</h1>
+        <Header />
+        <ModuleCard />
       </div>
     );
   }

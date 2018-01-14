@@ -1,1 +1,120 @@
+.apple {
+  font-size: 25px;
+}
 
+.logo {
+  font-family: 'Pacifico';
+}
+
+.logoText {
+  font-size: 35px;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 25%;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.moduleHeading {
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  color: #616161;
+  font-size: 15px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  background-color: #424242;
+  box-shadow: 1px 1px 2px grey;
+  height: 70%;
+  justify-content: center;
+  font-size: 100px;
+  color: white;
+}
+
+.box-one {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  box-shadow: 1px 1px 2px grey;
+  height: 70%;
+  justify-content: center;
+  font-size: 100px;
+  color: white;
+}
+
+.box-two {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  box-shadow: 1px 1px 2px grey;
+  height: 70%;
+  justify-content: center;
+  font-size: 100px;
+  color: white;
+}
+.one {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.glyph {
+  position: absolute;
+}
+
+.glyph-doc {
+  padding-right: 10px;
+  color: grey;
+  font-size: 20px;
+}
+
+.info {
+  background-color: red;
+}
+
+input[type='text'],
+select {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+input[type='text'],
+select {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+input[type='drop'],
+select {
+  width: 10%;
+  padding: 5px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.formText {
+  padding-right: 10px;
+  padding-left: 1px;
+}
+
+.phone {
+  padding-right: 10px;
+}
+
+.mainForm {
+  height: 500px;
+}
