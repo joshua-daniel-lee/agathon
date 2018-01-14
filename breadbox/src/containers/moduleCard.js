@@ -77,6 +77,10 @@ class ModuleCard extends Component {
         <Panel className="card">
           <h1>Supporting Documents </h1>
         </Panel>
+
+        <Panel className="card">
+          <h1>Add Module</h1>
+        </Panel>
       </div>
     );
   }
