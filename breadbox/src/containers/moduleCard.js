@@ -11,75 +11,110 @@ class ModuleCard extends Component {
     return (
       <div className="dashboard container">
         <Panel className="card">
-          <h1>Quick Start</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Facility Information</h5>
+            <div className="box">
+              <Glyphicon glyph="home" />{' '}
+            </div>
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Facility Information</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Good Manufacturing Practices</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Preliminary Steps</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Hazard Analysis</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Good Manufacturing Practices (GMP) & Other Prerequisite Programs</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Process Preventive Controls</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Hazard Analysis & Preventive Controls Determination</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Allergen Preventive Controls</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Process Preventive Controls</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Sanitation Preventive Controls</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Food Allergen Preventive Controls</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Supply-Chain Preventive Controls</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Sanitation Preventive Controls</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Recall Plan</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Supply-Chain Preventive Controls</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Reanalysis of Food Safety Plan</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Supply-Chain Preventive Controls</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Food Safety Plan Report</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Recall Plan</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Manage Signatures</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Reanalysis of Food Safety Plan</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Recordkeeping Procedures</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Food Safety Plan</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Important Contacts</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Signature</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Supporting Documents</h5>
+            <div className="box" />
+          </div>
         </Panel>
 
         <Panel className="card">
-          <h1>Recordkeeping Procedures</h1>
-        </Panel>
-
-        <Panel className="card">
-          <h1>Important Contacts</h1>
-        </Panel>
-
-        <Panel className="card">
-          <h1>Supporting Documents </h1>
-        </Panel>
-
-        <Panel className="card">
-          <h1>Add Module</h1>
+          <div className="container">
+            <h5 className="moduleHeading">Add Module</h5>
+            <div className="box" />
+          </div>
         </Panel>
       </div>
     );

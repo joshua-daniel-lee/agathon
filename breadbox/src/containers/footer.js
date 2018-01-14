@@ -1,7 +1,17 @@
 /*jshint esversion: 6 */
 import React, { Component } from 'react';
 import '../index.css';
-import { Glyphicon } from 'react-bootstrap';
+import {
+  Nav,
+  Navbar,
+  NavItem,
+  NavDropdown,
+  MenuItem,
+  FormGroup,
+  FormControl,
+  Button,
+  Glyphicon,
+} from 'react-bootstrap';
 
 class Footer extends Component {
   constructor() {
@@ -11,7 +21,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div class="container">Footer</div>
+        <h5 className="logo">breadbox</h5>
       </div>
     );
   }

@@ -35,6 +35,7 @@ class Header extends Component {
             <MenuItem>Account Settings</MenuItem>
             <MenuItem divider />
             <MenuItem>Sign Out</MenuItem>
+            <MenuItem>Dashboard</MenuItem>
             <MenuItem />
           </NavDropdown>
         </Nav>
