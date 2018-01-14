@@ -36,7 +36,7 @@ class Documents extends Component {
               <a href="">Recordkeeping Procedures</a>
             </ListGroupItem>
           </ListGroup>
-          <a href="doc.pdf" download>
+          <a href="Food-Saftey-Plan.pdf" download>
             <Button>Download All</Button>
           </a>
         </div>

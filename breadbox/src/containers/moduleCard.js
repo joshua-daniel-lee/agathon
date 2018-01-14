@@ -24,6 +24,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="home" />
             </div>
+            <Label bsStyle="warning" bs placement="right" className="in" id="tooltip-right">
+              In-Progress
+            </Label>
           </div>
         </Panel>
 
@@ -33,6 +36,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="leaf" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -42,6 +48,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="ban-circle" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -51,6 +60,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="bell" />
             </div>
+            <Label bsStyle="danger" bs placement="right" className="in" id="tooltip-right">
+              Incomplete
+            </Label>
           </div>
         </Panel>
 
@@ -60,6 +72,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="eye-open" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -69,6 +84,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="alert" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -78,6 +96,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="globe" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -87,6 +108,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="retweet" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -96,6 +120,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="repeat" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -105,6 +132,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="folder-open" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -114,6 +144,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="pencil" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -123,6 +156,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="inbox" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -132,6 +168,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="comment" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -141,6 +180,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="list" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
 
@@ -150,6 +192,9 @@ class ModuleCard extends Component {
             <div className="box">
               <Glyphicon glyph="plus" />
             </div>
+            <Label bsStyle="success" bs placement="right" className="in" id="tooltip-right">
+              Finished
+            </Label>
           </div>
         </Panel>
       </div>

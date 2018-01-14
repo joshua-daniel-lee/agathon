@@ -55,3 +55,19 @@
   color: grey;
   font-size: 20px;
 }
+
+.info {
+  background-color: red;
+}
+
+input[type='text'],
+select {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.formText {
+  padding-right: 10px;
+}
