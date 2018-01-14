@@ -2,7 +2,14 @@
 import React, { Component } from 'react';
 import Header from './header.js';
 import '../index.css';
-import { ListGroup, ListGroupItem, Glyphicon, Button } from 'react-bootstrap';
+import {
+  ListGroup,
+  ListGroupItem,
+  Glyphicon,
+  Button,
+  FormControl,
+  FormGroup,
+} from 'react-bootstrap';
 
 class Documents extends Component {
   constructor() {
@@ -13,6 +20,15 @@ class Documents extends Component {
     return (
       <div>
         <Header />
+        <div className="container search">
+          <FormGroup className="formgroup">
+            <FormControl type="text" placeholder="Search" />
+            <Button type="submit" className="spaceMe">
+              Submit
+            </Button>
+          </FormGroup>
+        </div>
+
         <div className=" documents container">
           <ListGroup>
             <ListGroupItem>

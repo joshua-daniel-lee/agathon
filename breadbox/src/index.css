@@ -134,3 +134,15 @@ select {
   height: 400px;
   margin-right: 50px;
 }
+
+.search {
+  display: flex;
+}
+
+.formgroup {
+  width: 500px;
+}
+
+.spaceMe {
+  margin-left: 5px;
+}

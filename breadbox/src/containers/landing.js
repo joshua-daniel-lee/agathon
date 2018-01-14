@@ -27,10 +27,10 @@ class Landing extends Component {
             <div className="call">
               <div className="container">
                 <h1 className="glyphicon glyphicon-grain" />
-                <h2 class="display-3">Key Management</h2>
+                <h2 class="display-3">Documentation Management</h2>
                 <p class="lead">
-                  Take ownership over your encryption keys while delivering the same simple and
-                  secure end-user experience that everyone gets from Box.
+                  Take ownership over your documentation while delivering with a simple and secure
+                  user experience. Track, Manage and Store documents and reduce paper.
                 </p>
                 <hr class="my-4" />
               </div>
