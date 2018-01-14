@@ -1,5 +1,17 @@
 /*jshint esversion: 6 */
 import React, { Component } from 'react';
+import '../index.css';
+import {
+  Nav,
+  Navbar,
+  NavItem,
+  NavDropdown,
+  MenuItem,
+  FormGroup,
+  FormControl,
+  Button,
+  Glyphicon,
+} from 'react-bootstrap';
 
 class Header extends Component {
   constructor() {
@@ -8,9 +20,25 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="header">
-        <h1>Hello World Header</h1>
-      </div>
+      <Navbar staticTop>
+        <Navbar.Header>
+          <Navbar.Brand className="logo">
+            <Glyphicon className="apple" glyph="apple" />
+            <a className="logoText" href="/">
+              breadbox
+            </a>
+          </Navbar.Brand>
+        </Navbar.Header>
+        <Nav pullRight>
+          <NavItem href="#">Help</NavItem>
+          <NavDropdown title="My Account" id="basic-nav-dropdown">
+            <MenuItem>Account Settings</MenuItem>
+            <MenuItem divider />
+            <MenuItem>Sign Out</MenuItem>
+            <MenuItem />
+          </NavDropdown>
+        </Nav>
+      </Navbar>
     );
   }
 }

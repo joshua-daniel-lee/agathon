@@ -1,1 +1,19 @@
+.apple {
+  font-size: 25px;
+}
 
+.logo {
+  font-family: 'Pacifico';
+}
+
+.logoText {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: grey;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+}

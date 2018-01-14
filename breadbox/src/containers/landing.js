@@ -1,5 +1,7 @@
 /*jshint esversion: 6 */
 import React, { Component } from 'react';
+import Header from './header.js';
+import Footer from './footer.js';
 
 class Landing extends Component {
   constructor() {
@@ -8,8 +10,9 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className="header">
-        <h1>Hello World Landing</h1>
+      <div>
+        <Header />
+        <Footer />
       </div>
     );
   }

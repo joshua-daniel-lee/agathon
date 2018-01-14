@@ -1,5 +1,7 @@
 /*jshint esversion: 6 */
 import React, { Component } from 'react';
+import '../index.css';
+import { Glyphicon } from 'react-bootstrap';
 
 class Footer extends Component {
   constructor() {
@@ -8,8 +10,8 @@ class Footer extends Component {
 
   render() {
     return (
-      <div className="header">
-        <h1>Hello World Footer</h1>
+      <div className="footer">
+        <div class="container" />
       </div>
     );
   }
