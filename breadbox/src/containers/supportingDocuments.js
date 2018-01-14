@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Header from './header.js';
 import '../index.css';
-import { ListGroup, ListGroupItem, Glyphicon } from 'react-bootstrap';
+import { ListGroup, ListGroupItem, Glyphicon, Button } from 'react-bootstrap';
 
 class Documents extends Component {
   constructor() {
@@ -36,6 +36,9 @@ class Documents extends Component {
               <a href="">Recordkeeping Procedures</a>
             </ListGroupItem>
           </ListGroup>
+          <a href="doc.pdf" download>
+            <Button>Download All</Button>
+          </a>
         </div>
       </div>
     );
