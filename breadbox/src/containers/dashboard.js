@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import Header from './header.js';
 import ModuleCard from './moduleCard.js';
-import Footer from './footer.js';
 
 class Dashboard extends Component {
   constructor() {
@@ -14,7 +13,6 @@ class Dashboard extends Component {
       <div>
         <Header />
         <ModuleCard />
-        <Footer />
       </div>
     );
   }

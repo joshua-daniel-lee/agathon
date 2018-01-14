@@ -11,11 +11,16 @@ import {
   FormControl,
   Button,
   Glyphicon,
+  Tooltip,
 } from 'react-bootstrap';
 
 class Header extends Component {
   constructor() {
     super();
+  }
+
+  redirectDashboard(e) {
+    window.location.href = '/dashboard';
   }
 
   render() {
@@ -29,13 +34,14 @@ class Header extends Component {
             </a>
           </Navbar.Brand>
         </Navbar.Header>
+        <div />
         <Nav pullRight>
           <NavItem href="#">Help</NavItem>
           <NavDropdown title="My Account" id="basic-nav-dropdown">
             <MenuItem>Account Settings</MenuItem>
             <MenuItem divider />
             <MenuItem>Sign Out</MenuItem>
-            <MenuItem>Dashboard</MenuItem>
+            <MenuItem onClick={this.redirectDashboard.bind(this)}>Dashboard</MenuItem>
             <MenuItem />
           </NavDropdown>
         </Nav>
